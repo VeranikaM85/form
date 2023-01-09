@@ -12,10 +12,11 @@ $mail ->Charset = 'UTF-8';
 $mail->setLanguage('ru', 'phpmailer/language/');
 $mail->IsHTML(true);
 
+/*
 //от кого письмо
-$mail->setFrom('info@vercel.com', 'Я супер мастер');
+$mail->setFrom('info@vercel.com', 'Я супер мастер');*/
 //кому отправить
-$mail->addAddress('morukovich@gmail.com');
+$mail->addAddress('moruchokv@gmail.com');
 //тема письма
 $mail->Subject = 'Привет! Это письмо от супер мастера';
 
